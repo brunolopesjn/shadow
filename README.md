@@ -49,3 +49,5 @@ php shadow_decoder.php -i nova_lenna.png -t poema.txt
 ## Motivação
 
 Participei como palestrante do PHPeste 2023 com a palestra **Esteganografia: A arte de ocultar uma mensagem dentro de outra, com PHP!** e o código deste repositório foi implementado para exemplificar a técnica de esteganografia.
+
+Os lsides da palestra podem ser encontrados [aqui](https://linktr.ee/profbrunolopesce)
