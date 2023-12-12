@@ -55,11 +55,11 @@ for ($i = 0; $i < $width; $i++) {
     for ($j = 0; $j < $height; $j++) {
 
         // Verifique se a mensagem já foi totalmente decodificada
-        if (strlen($mensagem) >= $tamanhoMensagem) {
+        if (strlen($mensagem) >= $tamanhoMensagem + 4) {
             break 2; // Saia dos loops
         }
 
-        // Recupera o pixel i,j da imagem 
+        // Recupera o pixel i,j da imagem
         $pixel = imagecolorat($im, $i, $j);
 
         // Extrai os valores de vermelho, verde e azul do pixel
